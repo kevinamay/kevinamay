@@ -1,6 +1,6 @@
 <!-- HEADER BANNER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,38&height=220&section=header&text=Kevina%20Maydiva%20Heriansaputri&fontSize=38&fontAlignY=38&desc=Software%20Engineer%20%7C%20Full-Stack%20%26%20Mobile%20Developer&descAlignY=55&descAlign=50" width="100%" alt="Header Banner" />
+  <img src="https://raw.githubusercontent.com/kevinamay/kevinamay/main/assets/header.svg" width="100%" alt="Kevina Maydiva Heriansaputri" />
 </div>
 
 <!-- DYNAMIC TYPING TEXT -->
@@ -88,5 +88,5 @@ const kevin = {
 
 <!-- FOOTER WAVE -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,38&height=90&section=footer" width="100%" alt="Footer Wave" />
+  <img src="https://raw.githubusercontent.com/kevinamay/kevinamay/main/assets/footer.svg" width="100%" alt="Footer Wave" />
 </div>
