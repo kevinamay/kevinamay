@@ -29,12 +29,15 @@
 
 ---
 
-### 💫 Tentang Saya
-
-- 🔭 Sedang fokus mengembangkan aplikasi **Web & Mobile** yang responsif dan user-friendly.
-- 🌱 Senang mengeksplorasi framework dan teknologi baru.
-- 💬 Tanya saya tentang **TypeScript, JavaScript, Python, Dart / Flutter, atau Java**.
-- ⚡ *Fun fact*: Menulis kode yang bersih dan menyelesaikan bug memberikan kepuasan tersendiri! ☕
+> ### ✦ Sekilas Tentang Saya
+>
+> Halo! Saya **Kevina Maydiva**, seorang developer yang gemar merancang dan mengembangkan aplikasi di platform **Web & Mobile**. Saya menaruh perhatian besar pada detail visual, kemudahan navigasi bagi pengguna, serta penulisan kode yang terstruktur dan rapi.
+>
+> Dalam berbagai proyek, saya terbiasa membangun antarmuka interaktif dengan **TypeScript / JavaScript**, mengembangkan aplikasi mobile lintas platform menggunakan **Flutter & Dart**, serta mengeksplorasi logika backend melalui **Python** dan **Laravel**.
+>
+> ✦ **Fokus Saat Ini:** Web Frontend Engineering & Mobile Application Development  
+> ✦ **Ketertarikan:** UI/UX Interaction, Clean Code Architecture, System Integration  
+> ✦ **Kolaborasi:** Terbuka untuk diskusi teknologi baru dan pengerjaan proyek bersama.
 
 ---
 
