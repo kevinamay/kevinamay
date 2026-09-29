@@ -31,16 +31,6 @@
 
 ### 💫 Tentang Saya
 
-```text
-const kevin = {
-    pronouns: "she/her",
-    role: "Software Engineer / Developer",
-    interests: ["Web Development", "Mobile Apps", "UI/UX Design"],
-    currentlyLearning: ["Cloud Computing", "Advanced Architecture"],
-    hobbies: ["Exploring tech", "Coffee brewing", "Designing"]
-};
-```
-
 - 🔭 Sedang fokus mengembangkan aplikasi **Web & Mobile** yang responsif dan user-friendly.
 - 🌱 Senang mengeksplorasi framework dan teknologi baru.
 - 💬 Tanya saya tentang **TypeScript, JavaScript, Python, Dart / Flutter, atau Java**.
