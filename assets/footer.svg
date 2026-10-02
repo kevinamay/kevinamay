@@ -1,10 +1,41 @@
-<svg width="100%" height="80" viewBox="0 0 1000 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="95" viewBox="0 0 1000 95" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="footerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.8" />
+    <!-- Wave Gradients -->
+    <linearGradient id="footerWave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff7597" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.3" />
+    </linearGradient>
+    <linearGradient id="footerWave2" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.85" />
+      <stop offset="45%" stop-color="#9333ea" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#ff7597" stop-opacity="0.85" />
+    </linearGradient>
+    <linearGradient id="sakuraPetalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#ff8da1" />
     </linearGradient>
   </defs>
-  <path d="M 0 35 C 260 75, 460 10, 710 50 C 860 70, 930 20, 1000 40 L 1000 80 L 0 80 Z" fill="url(#footerGradient)" />
+
+  <!-- Wave 1 (Upper Back Wave) -->
+  <path d="M 0 32 C 240 68, 480 8, 720 45 C 860 62, 940 18, 1000 35 L 1000 95 L 0 95 Z" fill="url(#footerWave1)" />
+
+  <!-- Wave 2 (Lower Main Crest) -->
+  <path d="M 0 46 C 260 16, 500 72, 750 36 C 880 18, 950 55, 1000 48 L 1000 95 L 0 95 Z" fill="url(#footerWave2)" />
+
+  <!-- Traditional Golden Wave Crest Highlights -->
+  <path d="M 0 46 C 260 16, 500 72, 750 36 C 880 18, 950 55, 1000 48" stroke="#ffe4e6" stroke-width="1.2" fill="none" opacity="0.65" />
+
+  <!-- Drifting Sakura Petals in the Stream -->
+  <g opacity="0.85">
+    <path d="M 0 0 C -2 -4, -4 -9, -2 -13 C -1 -15, 0 -14, 0 -12 C 0 -14, 1 -15, 2 -13 C 4 -9, 2 -4, 0 0 Z" fill="url(#sakuraPetalGrad)" transform="translate(180, 24) rotate(35) scale(0.6)" />
+    <path d="M 0 0 C -2 -4, -4 -9, -2 -13 C -1 -15, 0 -14, 0 -12 C 0 -14, 1 -15, 2 -13 C 4 -9, 2 -4, 0 0 Z" fill="url(#sakuraPetalGrad)" transform="translate(430, 48) rotate(-20) scale(0.55)" />
+    <path d="M 0 0 C -2 -4, -4 -9, -2 -13 C -1 -15, 0 -14, 0 -12 C 0 -14, 1 -15, 2 -13 C 4 -9, 2 -4, 0 0 Z" fill="url(#sakuraPetalGrad)" transform="translate(680, 26) rotate(50) scale(0.65)" />
+    <path d="M 0 0 C -2 -4, -4 -9, -2 -13 C -1 -15, 0 -14, 0 -12 C 0 -14, 1 -15, 2 -13 C 4 -9, 2 -4, 0 0 Z" fill="url(#sakuraPetalGrad)" transform="translate(890, 38) rotate(-45) scale(0.5)" />
+  </g>
+
+  <!-- Zen Closing Inscription -->
+  <text x="500" y="78" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans', 'Yu Gothic', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" letter-spacing="3.5" opacity="0.95">
+    ✦  継続は力なり  •  CONTINUITY IS POWER  ✦
+  </text>
 </svg>

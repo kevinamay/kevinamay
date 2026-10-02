@@ -1,54 +1,216 @@
-<svg width="100%" height="200" viewBox="0 0 1000 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="240" viewBox="0 0 1000 240" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0f19" />
-      <stop offset="50%" stop-color="#18153b" />
-      <stop offset="100%" stop-color="#2d0b43" />
+    <!-- Background Gradient (Deep Sumi-e Midnight to Kyoto Night Slate) -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080b12" />
+      <stop offset="45%" stop-color="#121026" />
+      <stop offset="75%" stop-color="#24112e" />
+      <stop offset="100%" stop-color="#0e0a1a" />
     </linearGradient>
-    <linearGradient id="waveGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.85" />
-      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.75" />
-      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.85" />
+
+    <!-- Rising Sun / Hinomaru Glow -->
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff3366" stop-opacity="0.95" />
+      <stop offset="40%" stop-color="#ff6b8b" stop-opacity="0.7" />
+      <stop offset="70%" stop-color="#ff8da1" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#121026" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Fuji Mountain Gradients -->
+    <linearGradient id="fujiBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f1d3d" />
+      <stop offset="100%" stop-color="#0b0c16" />
     </linearGradient>
-    <linearGradient id="waveGradient2" x1="100%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.25" />
+    <linearGradient id="fujiSnow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#e0e7ff" />
+      <stop offset="100%" stop-color="#a5b4fc" stop-opacity="0.3" />
     </linearGradient>
+
+    <!-- Sakura Petals & Neon Accents -->
+    <linearGradient id="sakuraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd1dc" />
+      <stop offset="100%" stop-color="#ff6584" />
+    </linearGradient>
+
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="50%" stop-color="#f1f5f9" />
-      <stop offset="100%" stop-color="#e0e7ff" />
+      <stop offset="50%" stop-color="#ffe4ec" />
+      <stop offset="100%" stop-color="#ffffff" />
     </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
+
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f6d365" />
+      <stop offset="100%" stop-color="#fda085" />
+    </linearGradient>
+
+    <linearGradient id="toriiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff3b5c" />
+      <stop offset="100%" stop-color="#99132b" />
+    </linearGradient>
+
+    <!-- Bottom Wave Gradients -->
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff477e" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="wave2" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ff7597" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#e11d48" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Filters for Ethereal Glow -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
 
-  <!-- Card Background with smooth rounded borders -->
-  <rect width="1000" height="200" rx="18" fill="url(#bgGradient)" stroke="#312e81" stroke-width="1.5" />
+  <!-- Container Base -->
+  <rect width="1000" height="240" rx="18" fill="url(#skyGrad)" stroke="#3b1d3d" stroke-width="1.5" />
 
-  <!-- Background Ambient Glows -->
-  <circle cx="200" cy="50" r="90" fill="#6366f1" opacity="0.12" filter="url(#glow)" />
-  <circle cx="800" cy="140" r="100" fill="#ec4899" opacity="0.1" filter="url(#glow)" />
+  <!-- Stars & Night Mist Particles -->
+  <g opacity="0.65">
+    <circle cx="95" cy="42" r="1.2" fill="#fff" />
+    <circle cx="180" cy="25" r="1.5" fill="#fbcfe8" />
+    <circle cx="270" cy="55" r="1" fill="#fff" />
+    <circle cx="380" cy="30" r="1.3" fill="#fda4af" />
+    <circle cx="490" cy="20" r="1" fill="#fff" />
+    <circle cx="620" cy="45" r="1.4" fill="#fbcfe8" />
+    <circle cx="730" cy="28" r="1" fill="#fff" />
+    <circle cx="850" cy="38" r="1.5" fill="#ffb7c5" />
+    <circle cx="940" cy="65" r="1.2" fill="#fff" />
+    <circle cx="140" cy="85" r="0.9" fill="#fbcfe8" />
+    <circle cx="780" cy="70" r="1.1" fill="#fff" />
+    <circle cx="880" cy="115" r="1" fill="#fda4af" />
+  </g>
 
-  <!-- Geometric Waves -->
-  <path d="M 0 145 C 220 115, 400 175, 600 135 C 780 100, 880 165, 1000 130 L 1000 200 L 0 200 Z" fill="url(#waveGradient2)" />
-  <path d="M 0 160 C 260 125, 470 195, 720 145 C 860 115, 930 175, 1000 155 L 1000 200 L 0 200 Z" fill="url(#waveGradient1)" />
+  <!-- Rising Sun / Hinomaru Behind Mount Fuji -->
+  <circle cx="210" cy="100" r="78" fill="url(#sunGrad)" filter="url(#glow)" />
 
-  <!-- Accent sparkles -->
-  <circle cx="150" cy="50" r="2.5" fill="#a5b4fc" opacity="0.7" />
-  <circle cx="860" cy="55" r="3" fill="#f472b6" opacity="0.6" />
-  <circle cx="730" cy="35" r="2" fill="#c084fc" opacity="0.7" />
-  <circle cx="280" cy="75" r="2" fill="#38bdf8" opacity="0.5" />
+  <!-- Mount Fuji Silhouette (Left/Center-Left) -->
+  <g opacity="0.95">
+    <!-- Mountain Body -->
+    <path d="M 60 220 L 175 92 Q 210 82 245 92 L 360 220 Z" fill="url(#fujiBody)" />
+    <!-- Snow Cap -->
+    <path d="M 175 92 Q 210 82 245 92 L 260 115 L 246 110 L 235 125 L 223 114 L 210 128 L 197 114 L 185 125 L 174 110 L 160 115 Z" fill="url(#fujiSnow)" />
+  </g>
 
-  <!-- Header Name -->
-  <text x="500" y="85" text-anchor="middle" fill="url(#textGrad)" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" letter-spacing="1">
+  <!-- Traditional Stylized Clouds (Kumo 雲) -->
+  <g stroke="#ff7597" stroke-width="1.2" fill="none" opacity="0.32">
+    <!-- Cloud Left -->
+    <path d="M 40 135 h 50 a 14 14 0 0 0 28 0 a 10 10 0 0 0 16 -6 h 40" />
+    <path d="M 60 142 h 65 a 10 10 0 0 0 18 0 h 30" />
+    <!-- Cloud Center Low -->
+    <path d="M 330 195 h 80 a 12 12 0 0 0 24 0 h 60" />
+    <!-- Cloud Right High -->
+    <path d="M 760 52 h 55 a 12 12 0 0 0 22 -4 a 10 10 0 0 0 18 4 h 50" />
+  </g>
+
+  <!-- Traditional Torii Gate Silhouette (Right Side) -->
+  <g transform="translate(855, 68)">
+    <!-- Base Pillars -->
+    <rect x="18" y="42" width="9" height="110" fill="url(#toriiGrad)" rx="1.5" />
+    <rect x="73" y="42" width="9" height="110" fill="url(#toriiGrad)" rx="1.5" />
+    <!-- Foundation Stones (Kamebara) -->
+    <rect x="15" y="146" width="15" height="6" fill="#1e1b2e" rx="1" />
+    <rect x="70" y="146" width="15" height="6" fill="#1e1b2e" rx="1" />
+    <!-- Lower Crossbeam (Nuki) -->
+    <rect x="10" y="65" width="80" height="7" fill="url(#toriiGrad)" rx="1" />
+    <!-- Wedge pegs (Kusabi) -->
+    <rect x="15" y="63" width="3" height="11" fill="#0f0c1a" />
+    <rect x="82" y="63" width="3" height="11" fill="#0f0c1a" />
+    <!-- Center Strut (Gakuzuka) -->
+    <rect x="47" y="46" width="6" height="20" fill="url(#toriiGrad)" />
+    <!-- Center Plaque / Tablet (Gaku) -->
+    <rect x="46" y="50" width="8" height="11" fill="#181329" stroke="#ff7597" stroke-width="0.8" />
+    <!-- Upper Main Crossbeam (Kasagi & Shimaki) with elegant upward curve -->
+    <path d="M -2 46 C 25 47, 75 47, 102 46 L 100 40 C 75 41, 25 41, 0 40 Z" fill="url(#toriiGrad)" />
+    <path d="M -10 39 C 25 41, 75 41, 110 39 C 114 34, 112 30, 108 30 C 75 33, 25 33, -8 30 C -12 30, -14 34, -10 39 Z" fill="#120e24" stroke="#ff477e" stroke-width="1" />
+  </g>
+
+  <!-- Traditional Hanko Red Seal Stamp (Top Left) -->
+  <g transform="translate(42, 32)">
+    <rect width="38" height="38" rx="6" fill="#991b1b" stroke="#f43f5e" stroke-width="2" />
+    <rect x="3" y="3" width="32" height="32" rx="4" fill="none" stroke="#fecdd3" stroke-width="1" opacity="0.6" />
+    <!-- Kanji: 職人 (Shokunin - Artisan) -->
+    <text x="19" y="19" text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="13" font-weight="900" letter-spacing="1">職</text>
+    <text x="19" y="30" text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="13" font-weight="900" letter-spacing="1">人</text>
+  </g>
+
+  <!-- Vertical Japanese Calligraphy Accent (Left Side, next to Hanko) -->
+  <g opacity="0.75" transform="translate(51, 88)">
+    <text x="0" y="0" text-anchor="middle" fill="#f472b6" font-family="'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', sans-serif" font-size="12" font-weight="700">開</text>
+    <text x="0" y="16" text-anchor="middle" fill="#f472b6" font-family="'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', sans-serif" font-size="12" font-weight="700">発</text>
+    <text x="0" y="32" text-anchor="middle" fill="#f472b6" font-family="'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', sans-serif" font-size="12" font-weight="700">者</text>
+    <text x="0" y="48" text-anchor="middle" fill="#f472b6" font-family="'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', sans-serif" font-size="12" font-weight="700">魂</text>
+    <!-- Dot separator -->
+    <circle cx="0" cy="62" r="1.8" fill="#fda4af" />
+    <text x="0" y="78" text-anchor="middle" fill="#fda4af" font-family="'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', sans-serif" font-size="11" font-weight="600">美</text>
+    <text x="0" y="93" text-anchor="middle" fill="#fda4af" font-family="'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', sans-serif" font-size="11" font-weight="600">学</text>
+  </g>
+
+  <!-- Floating Sakura Blossom Petals (Wind-blown) -->
+  <g filter="url(#softGlow)">
+    <!-- Petal 1 -->
+    <path d="M 0 0 C -3 -6, -6 -12, -3 -17 C -1 -20, 0 -18, 0 -16 C 0 -18, 1 -20, 3 -17 C 6 -12, 3 -6, 0 0 Z" fill="url(#sakuraGrad)" transform="translate(130, 48) rotate(25) scale(0.65)" opacity="0.85" />
+    <!-- Petal 2 -->
+    <path d="M 0 0 C -3 -6, -6 -12, -3 -17 C -1 -20, 0 -18, 0 -16 C 0 -18, 1 -20, 3 -17 C 6 -12, 3 -6, 0 0 Z" fill="url(#sakuraGrad)" transform="translate(290, 35) rotate(-35) scale(0.55)" opacity="0.75" />
+    <!-- Petal 3 -->
+    <path d="M 0 0 C -3 -6, -6 -12, -3 -17 C -1 -20, 0 -18, 0 -16 C 0 -18, 1 -20, 3 -17 C 6 -12, 3 -6, 0 0 Z" fill="url(#sakuraGrad)" transform="translate(420, 52) rotate(48) scale(0.7)" opacity="0.9" />
+    <!-- Petal 4 -->
+    <path d="M 0 0 C -3 -6, -6 -12, -3 -17 C -1 -20, 0 -18, 0 -16 C 0 -18, 1 -20, 3 -17 C 6 -12, 3 -6, 0 0 Z" fill="url(#sakuraGrad)" transform="translate(680, 32) rotate(15) scale(0.6)" opacity="0.8" />
+    <!-- Petal 5 -->
+    <path d="M 0 0 C -3 -6, -6 -12, -3 -17 C -1 -20, 0 -18, 0 -16 C 0 -18, 1 -20, 3 -17 C 6 -12, 3 -6, 0 0 Z" fill="url(#sakuraGrad)" transform="translate(790, 95) rotate(-55) scale(0.75)" opacity="0.85" />
+    <!-- Petal 6 -->
+    <path d="M 0 0 C -3 -6, -6 -12, -3 -17 C -1 -20, 0 -18, 0 -16 C 0 -18, 1 -20, 3 -17 C 6 -12, 3 -6, 0 0 Z" fill="url(#sakuraGrad)" transform="translate(930, 140) rotate(70) scale(0.6)" opacity="0.7" />
+    <!-- Petal 7 -->
+    <path d="M 0 0 C -3 -6, -6 -12, -3 -17 C -1 -20, 0 -18, 0 -16 C 0 -18, 1 -20, 3 -17 C 6 -12, 3 -6, 0 0 Z" fill="url(#sakuraGrad)" transform="translate(370, 160) rotate(-15) scale(0.5)" opacity="0.6" />
+    <!-- Petal 8 -->
+    <path d="M 0 0 C -3 -6, -6 -12, -3 -17 C -1 -20, 0 -18, 0 -16 C 0 -18, 1 -20, 3 -17 C 6 -12, 3 -6, 0 0 Z" fill="url(#sakuraGrad)" transform="translate(720, 155) rotate(40) scale(0.65)" opacity="0.75" />
+  </g>
+
+  <!-- Dynamic Aesthetic Waves at Bottom (Seigaiha / Kanagawa wave fusion) -->
+  <path d="M 0 178 C 180 152, 340 198, 520 168 C 700 138, 860 185, 1000 160 L 1000 240 L 0 240 Z" fill="url(#wave1)" />
+  <path d="M 0 195 C 220 165, 420 215, 650 182 C 820 155, 920 198, 1000 185 L 1000 240 L 0 240 Z" fill="url(#wave2)" />
+
+  <!-- Traditional Wave Crest Line Accents -->
+  <path d="M 0 195 C 220 165, 420 215, 650 182 C 820 155, 920 198, 1000 185" stroke="#ff7597" stroke-width="1.2" fill="none" opacity="0.6" />
+
+  <!-- ================= CENTER EDITORIAL CONTENT ================= -->
+
+  <!-- Top Kanji & Japanese Badge Accent -->
+  <g transform="translate(540, 52)">
+    <!-- Small aesthetic pill badge -->
+    <rect x="-165" y="-14" width="330" height="22" rx="11" fill="#1c142c" stroke="#ff7597" stroke-width="0.9" opacity="0.9" />
+    <text x="0" y="2" text-anchor="middle" fill="#ffb7c5" font-family="'Hiragino Sans', 'Yu Gothic', system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" letter-spacing="3.5">
+      ✦ 和 の 美 学 • DIGITAL ARTISAN ✦
+    </text>
+  </g>
+
+  <!-- Main English Name -->
+  <text x="540" y="96" text-anchor="middle" fill="url(#textGrad)" font-family="'Cinzel', 'Playfair Display', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="33" font-weight="900" letter-spacing="1.5">
     Kevina Maydiva Heriansaputri
   </text>
-  
-  <!-- Subtitle Tagline -->
-  <text x="500" y="122" text-anchor="middle" fill="#94a3b8" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" letter-spacing="2.5">
-    SOFTWARE ENGINEER  •  FULL-STACK &amp; MOBILE DEVELOPER
+
+  <!-- Katakana Japanese Subtitle with Japanese Cherry Blossom Glyphs -->
+  <text x="540" y="126" text-anchor="middle" fill="#ff7597" font-family="'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="14.5" font-weight="700" letter-spacing="5">
+    🌸 ケヴィナ・メイディヴァ • 開発職人 🌸
+  </text>
+
+  <!-- Core Engineering Capabilities Bar -->
+  <text x="540" y="152" text-anchor="middle" fill="#cbd5e1" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, monospace, sans-serif" font-size="11.5" font-weight="600" letter-spacing="2">
+    FULL-STACK WEB &amp; MOBILE  ✦  TYPESCRIPT  •  FLUTTER  •  PYTHON  •  LARAVEL
+  </text>
+
+  <!-- Philosophical Zen Motto Tagline -->
+  <text x="540" y="174" text-anchor="middle" fill="#f472b6" font-family="'Hiragino Sans', 'Yu Gothic', system-ui, -apple-system, sans-serif" font-size="11" font-style="italic" font-weight="500" letter-spacing="1">
+    「 千里の行も足下に始まる 」 • Crafting Pixel-Perfect Elegance with High-Performance Code
   </text>
 </svg>
