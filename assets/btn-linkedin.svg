@@ -1,0 +1,48 @@
+<svg width="186" height="44" viewBox="0 0 186 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgIn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e172a" />
+      <stop offset="100%" stop-color="#182046" />
+    </linearGradient>
+    <linearGradient id="strokeIn" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    <radialGradient id="iconGlowIn" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#0e172a" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Capsule Pill Shape -->
+  <rect x="1" y="1" width="184" height="42" rx="21" fill="url(#bgIn)" stroke="url(#strokeIn)" stroke-width="1.6" />
+
+  <!-- Left Icon Circle Accent -->
+  <circle cx="22" cy="22" r="14" fill="#0f224a" stroke="#38bdf8" stroke-width="1" />
+  <circle cx="22" cy="22" r="16" fill="url(#iconGlowIn)" />
+
+  <!-- Vector Torii Gate / Network Icon -->
+  <g transform="translate(22, 22) scale(0.65)">
+    <!-- Torii Pillars -->
+    <rect x="-8" y="-7" width="2.2" height="15" fill="#38bdf8" rx="0.5" />
+    <rect x="5.8" y="-7" width="2.2" height="15" fill="#38bdf8" rx="0.5" />
+    <!-- Lower Beam -->
+    <rect x="-10" y="-3" width="20" height="2" fill="#38bdf8" rx="0.5" />
+    <!-- Center Strut -->
+    <rect x="-1" y="-7" width="2" height="4" fill="#38bdf8" />
+    <!-- Upper Curved Roof Beam -->
+    <path d="M -12 -7 C -4 -6.5, 4 -6.5, 12 -7 L 11 -9.5 C 4 -8.8, -4 -8.8, -11 -9.5 Z" fill="#e0f2fe" />
+  </g>
+
+  <!-- Dual-Tier Typography -->
+  <text x="44" y="17" fill="#bae6fd" font-family="'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'Segoe UI', sans-serif" font-size="9" font-weight="700" letter-spacing="1.5">
+    結び • LINKEDIN
+  </text>
+  <text x="44" y="31" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="800" letter-spacing="1.2">
+    CONNECT WITH ME
+  </text>
+
+  <!-- Right Arrow Chevron -->
+  <path d="M 166 18 L 170 22 L 166 26" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.85" />
+</svg>

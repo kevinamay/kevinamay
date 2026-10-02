@@ -18,21 +18,30 @@
 
 <br/>
 
-<!-- VISITOR COUNTER & JAPANESE AESTHETIC BADGES -->
+<!-- AESTHETIC JAPANESE CAPSULE NAVIGATION BAR -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=kevinamay&label=%E8%A8%AA%E5%95%8F%E8%80%85%20%E2%80%A2%20VISITORS&color=ff7597&style=for-the-badge&logoColor=white" alt="Visitor Counter" />
-  &nbsp;&nbsp;
   <a href="https://portofoliokevina.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/%E6%8E%A2%E7%B4%A2%20%E2%80%A2%20PORTFOLIO-E11D48?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+    <img src="https://raw.githubusercontent.com/kevinamay/kevinamay/main/assets/btn-portfolio.svg" height="42" alt="Portfolio" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://linkedin.com/in/kevinamay" target="_blank">
-    <img src="https://img.shields.io/badge/%E9%80%A3%E7%B5%A1%20%E2%80%A2%20LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://raw.githubusercontent.com/kevinamay/kevinamay/main/assets/btn-linkedin.svg" height="42" alt="LinkedIn" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="mailto:kevinamay23@gmail.com">
-    <img src="https://img.shields.io/badge/%E4%BE%BF%E3%82%8A%20%E2%80%A2%20EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://raw.githubusercontent.com/kevinamay/kevinamay/main/assets/btn-email.svg" height="42" alt="Email" />
   </a>
+  &nbsp;
+  <a href="https://github.com/kevinamay">
+    <img src="https://raw.githubusercontent.com/kevinamay/kevinamay/main/assets/btn-github.svg" height="42" alt="GitHub" />
+  </a>
+</div>
+
+<br/>
+
+<!-- DIGITAL SHRINE VISITOR COUNTER -->
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=kevinamay&label=SHRINE%20VISITORS&color=ff7597&style=flat" height="20" alt="Shrine Visitors" />
 </div>
 
 <br/>
@@ -153,16 +162,16 @@ Berikut adalah beberapa proyek unggulan yang telah saya bangun:
 Apakah Anda memiliki ide proyek menarik, ingin berkolaborasi dalam pengembangan aplikasi Web/Mobile, atau sekadar berbincang santai seputar teknologi? Pintu gerbang selalu terbuka lebar:
 
 <div align="center">
-  <a href="mailto:kevinamay23@gmail.com">
-    <img src="https://img.shields.io/badge/%E4%BE%BF%E3%82%8A%20%E2%80%A2%20KIRIM_EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Email" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/kevinamay" target="_blank">
-    <img src="https://img.shields.io/badge/%E9%80%A3%E7%B5%A1%20%E2%80%A2%20LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
-  </a>
-  &nbsp;&nbsp;
   <a href="https://portofoliokevina.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/%E8%A6%8B%E5%87%BA%E3%81%99%20%E2%80%A2%20WEBSITE_PORTOFOLIO-E11D48?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Portfolio" />
+    <img src="https://raw.githubusercontent.com/kevinamay/kevinamay/main/assets/btn-portfolio.svg" height="42" alt="Live Portfolio" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/kevinamay" target="_blank">
+    <img src="https://raw.githubusercontent.com/kevinamay/kevinamay/main/assets/btn-linkedin.svg" height="42" alt="LinkedIn Profile" />
+  </a>
+  &nbsp;
+  <a href="mailto:kevinamay23@gmail.com">
+    <img src="https://raw.githubusercontent.com/kevinamay/kevinamay/main/assets/btn-email.svg" height="42" alt="Send Email" />
   </a>
 </div>
 

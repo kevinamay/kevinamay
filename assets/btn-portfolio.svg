@@ -1,0 +1,49 @@
+<svg width="186" height="44" viewBox="0 0 186 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgPort" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18112c" />
+      <stop offset="100%" stop-color="#2a1236" />
+    </linearGradient>
+    <linearGradient id="strokePort" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff7597" />
+      <stop offset="50%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#fda4af" />
+    </linearGradient>
+    <radialGradient id="iconGlowPort" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff7597" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#18112c" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Capsule Pill Shape (rx = 22 for height 44 = perfect circle ends) -->
+  <rect x="1" y="1" width="184" height="42" rx="21" fill="url(#bgPort)" stroke="url(#strokePort)" stroke-width="1.6" />
+
+  <!-- Left Icon Circle Accent -->
+  <circle cx="22" cy="22" r="14" fill="#2d1339" stroke="#ff7597" stroke-width="1" />
+  <circle cx="22" cy="22" r="16" fill="url(#iconGlowPort)" />
+
+  <!-- Vector Sakura Blossom Icon -->
+  <g transform="translate(22, 22) scale(0.65)">
+    <!-- 5 Sakura Petals -->
+    <path d="M 0 -13 C -3 -9, -4 -3, 0 0 C 4 -3, 3 -9, 0 -13 Z" fill="#ffb7c5" />
+    <path d="M 12 -4 C 10 -7, 4 -6, 0 0 C 6 2, 10 0, 12 -4 Z" fill="#ffb7c5" />
+    <path d="M 8 10 C 9 6, 6 1, 0 0 C 1 6, 5 10, 8 10 Z" fill="#ff7597" />
+    <path d="M -8 10 C -5 10, -1 6, 0 0 C -6 1, -9 6, -8 10 Z" fill="#ff7597" />
+    <path d="M -12 -4 C -10 0, -6 2, 0 0 C -4 -6, -10 -7, -12 -4 Z" fill="#ffb7c5" />
+    <!-- Pistil Center -->
+    <circle cx="0" cy="0" r="2.5" fill="#fef08a" />
+  </g>
+
+  <!-- Dual-Tier Typography -->
+  <!-- Japanese Katakana / Kanji Top Line -->
+  <text x="44" y="17" fill="#fbcfe8" font-family="'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'Segoe UI', sans-serif" font-size="9" font-weight="700" letter-spacing="1.5">
+    作品集 • PORTFOLIO
+  </text>
+  <!-- English Action Bottom Line -->
+  <text x="44" y="31" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="800" letter-spacing="1.2">
+    LIVE SHOWCASE
+  </text>
+
+  <!-- Right Aesthetic Arrow Chevron -->
+  <path d="M 166 18 L 170 22 L 166 26" stroke="#ff7597" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.85" />
+</svg>
