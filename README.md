@@ -39,13 +39,6 @@
 
 <br/>
 
-<!-- DIGITAL SHRINE VISITOR COUNTER -->
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=kevinamay&label=SHRINE%20VISITORS&color=ff7597&style=flat" height="20" alt="Shrine Visitors" />
-</div>
-
-<br/>
-
 <div align="center">
   <p>🌸 ━━━━━━━━━━━━━━━━━━━━━━ ⛩️ ━━━━━━━━━━━━━━━━━━━━━━ 🌸</p>
 </div>
