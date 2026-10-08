@@ -124,7 +124,7 @@ Berikut adalah beberapa proyek unggulan yang telah saya bangun:
 ### 📊 「修練の記録」 // BATTLE RECORDS & ANALYTICS
 
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=kevinamay&show_icons=true&theme=tokyonight&hide_border=true&title_color=ff7597&icon_color=ff7597&text_color=e2e8f0&bg_color=0d1117" height="170" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=kevinamay&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&title_color=ff7597&icon_color=ff7597&text_color=e2e8f0&bg_color=0d1117" height="170" alt="GitHub Stats" />
   &nbsp;
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kevinamay&layout=compact&theme=tokyonight&hide_border=true&title_color=ff7597&text_color=e2e8f0&bg_color=0d1117" height="170" alt="Top Languages" />
 </div>
@@ -132,7 +132,7 @@ Berikut adalah beberapa proyek unggulan yang telah saya bangun:
 <br/>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=kevinamay&theme=tokyonight&hide_border=true&ring=ff7597&fire=ff7597&currStreakNum=ff7597&sideNums=e2e8f0&currStreakLabel=ff7597&dates=94a3b8&background=0d1117" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=kevinamay&theme=tokyonight&hide_border=true&ring=ff7597&fire=ff7597&currStreakNum=ff7597&sideNums=e2e8f0&currStreakLabel=ff7597&dates=94a3b8&background=0d1117&timezone=Asia%2FJakarta" alt="GitHub Streak" />
 </div>
 
 <br/>
