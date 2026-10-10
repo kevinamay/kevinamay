@@ -39,13 +39,15 @@
 
 <br/>
 
-<!-- DIGITAL SHRINE VISITOR COUNTER -->
+<!-- DIGITAL SHRINE VISITOR EMBLEM -->
 <div align="center">
-  <p>
-    <sub>⛩️ <b>参拝者数 • PROFILE VISITORS</b> 🌸</sub><br/>
+  <p align="center">
+    <sub>⛩️ <b>参拝者の記録 • DIGITAL SHRINE VISITOR LOG</b> 🌸</sub><br/>
     <a href="https://hits.sh/github.com/kevinamay/">
-      <img src="https://hits.sh/github.com/kevinamay.svg?color=ff7597&label=VISITORS" height="20" alt="Profile Visitors" />
+      <img src="https://hits.sh/github.com/kevinamay.svg?view=today-total&style=flat&label=VISITORS%20(TODAY%20/%20TOTAL)&labelColor=18112c&color=ff7597&logo=github&logoColor=ffb7c5&extraCount=50" height="25" alt="Profile Visitors" />
     </a>
+    <br/>
+    <sub>✨ <i>"一期一会" (Ichigo Ichie) — Menghargai setiap pertemuan digital sebagai koneksi yang bernilai</i> ✨</sub>
   </p>
 </div>
 
