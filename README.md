@@ -43,8 +43,8 @@
 <div align="center">
   <p>
     <sub>⛩️ <b>参拝者数 • PROFILE VISITORS</b> 🌸</sub><br/>
-    <a href="https://github.com/kevinamay">
-      <img src="https://komarev.com/ghpvc/?username=kevinamay&label=VISITORS&color=ff7597&style=flat" height="20" alt="Profile Visitors" />
+    <a href="https://hits.sh/github.com/kevinamay/">
+      <img src="https://hits.sh/github.com/kevinamay.svg?color=ff7597&label=VISITORS" height="20" alt="Profile Visitors" />
     </a>
   </p>
 </div>
