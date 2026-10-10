@@ -12,7 +12,7 @@
 <!-- DYNAMIC JAPANESE TYPING SVG -->
 <div align="center">
   <a href="https://github.com/kevinamay">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=FF7597&center=true&vCenter=true&width=620&lines=Konnichiwa!+I'm+Kevina+Maydiva+%F0%9F%8C%B8;Full-Stack+%26+Mobile+Software+Artisan+%E2%9B%A9%EF%B8%8F;Crafting+with+TypeScript%2C+Flutter+%26+Python+%E2%9A%A1;Turning+ideas+into+aesthetic+digital+art+%E2%9C%A8;%E4%B8%80%E6%9C%9F%E4%B8%80%E4%BC%9A+%E2%80%A2+Treasure+every+interaction+%F0%9F%8F%8E" alt="Typing Japanese Title" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=FF7597&center=true&vCenter=true&width=740&lines=Konnichiwa!+I'm+Kevina+Maydiva+Heriansaputri+%F0%9F%8C%B8;Full-Stack+%26+Mobile+Software+Artisan+%E2%9B%A9%EF%B8%8F;Crafting+with+TypeScript%2C+Flutter+%26+Python+%E2%9A%A1;Turning+ideas+into+aesthetic+digital+art+%E2%9C%A8;%E4%B8%80%E6%9C%9F%E4%B8%80%E4%BC%9A+%E2%80%A2+Treasure+every+interaction+%F0%9F%8F%8E" alt="Typing Japanese Title" />
   </a>
 </div>
 
