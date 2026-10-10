@@ -39,6 +39,16 @@
 
 <br/>
 
+<!-- DIGITAL SHRINE VISITOR COUNTER -->
+<div align="center">
+  <p>
+    <sub>⛩️ <b>参拝者数 • PROFILE VISITORS</b> 🌸</sub><br/>
+    <a href="https://github.com/kevinamay">
+      <img src="https://komarev.com/ghpvc/?username=kevinamay&label=VISITORS&color=ff7597&style=flat" height="20" alt="Profile Visitors" />
+    </a>
+  </p>
+</div>
+
 <div align="center">
   <p>🌸 ━━━━━━━━━━━━━━━━━━━━━━ ⛩️ ━━━━━━━━━━━━━━━━━━━━━━ 🌸</p>
 </div>
