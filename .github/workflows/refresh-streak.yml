@@ -1,0 +1,25 @@
+name: 🌸 Auto-Refresh GitHub Streak & Stats Cache
+
+on:
+  schedule:
+    # Runs automatically every 30 minutes to purge GitHub Camo's 24-hour cache
+    - cron: '*/30 * * * *'
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  purge-camo-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge GitHub Camo Image Cache for Profile Stats
+        run: |
+          echo "Fetching Camo URLs from https://github.com/kevinamay ..."
+          URLS=$(curl -s https://github.com/kevinamay | grep -oE 'https://camo\.githubusercontent\.com/[a-f0-9]+/[a-f0-9]+' | sort -u)
+          for url in $URLS; do
+            echo "Purging: $url"
+            curl -s -X PURGE "$url"
+            echo ""
+          done
+          echo "✅ All profile Camo caches successfully purged!"
